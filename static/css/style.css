@@ -1,0 +1,42 @@
+body {
+    /* margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgba(2, 243, 243, 0.181);
+}
+
+.button{
+    background-color: #4CAF50; /* Green */
+        border: none;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #3682f4;
+}
+
+.input[type=text]{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    height: 10px;
+}

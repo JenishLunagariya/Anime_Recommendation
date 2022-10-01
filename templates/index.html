@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Anime Recommendation</title>
+</head>
+<body>
+    <center><h2>Anime Recommendation</h2></center>
+    <!-- Image Anime -->
+    <center><img src="../static/img/39033.png" alt="Image of Anime" height="40%" width="40%"></center>
+    <br>
+    <form action="#" method="post">
+        <center>
+        <!-- <label for="title">Anime Name</label> -->
+        <input type="text" class="input" name="title" id="title" placeholder="Enter Title">
+
+        <!-- Button -->
+        <input type="submit" value="Submit" class="button button3">
+        <br>
+        
+        </center>
+    </form>
+    <center>
+        {{rec_names | safe}}
+        <p>&diams; ReX_ML &diams;</p>
+        <p>Contact: <a href="https://mlrex.blogspot.com" target="_blank">mlrex.com</a></p>
+    </center>
+</body>
+</html>
